@@ -1,0 +1,29 @@
+### Register User
+POST http://localhost:8686/youai/users/register
+Content-Type: application/json
+
+{
+  "email": "test@example.com",
+  "otpCode": "123456",
+  "password": "password123",
+  "role": "person",
+    "otpCode":"123345",
+  "name": "Test User",
+  "phno": "1234567890"
+}
+### Send OTP
+POST https://resume-servers.vercel.app/resume/users/sendOTP/maddy@gmail.com
+Content-Type: application/json
+
+### Login User
+POST https://your-ai-rouge.vercel.app/youai/users/login
+Content-Type: application/json
+
+{
+  "email": "test@example.com",
+  "password": "password123"
+}
+
+### Send OTP
+POST http://localhost:8686/youai/users/sendOTP/testr@example.com
+Content-Type: application/json

@@ -1,0 +1,29 @@
+### Get all users
+GET https://delicate-squid-legally.ngrok-free.app/youai/admin/subscriptions-updated-today
+Content-Type: application/json
+
+
+### Get user details by userId
+GET https://delicate-squid-legally.ngrok-free.app/youai/admin/getuserdetails/67a53b3e7fc5cdfc473203ea
+Content-Type: application/json
+
+
+### Update user feature usage (increment)
+POST https://delicate-squid-legally.ngrok-free.app/youai/admin/updateUsage
+Content-Type: application/json
+
+{
+    "userId": "67a53b3e7fc5cdfc473203ea",
+    "featureName": "Youtube And Facebook Short",
+    "action": "-"
+}
+
+### Update user feature usage (increment)
+POST http://localhost:8080/youai/admin/updateplan
+Content-Type: application/json
+
+{
+    "userId": "67a53b3e7fc5cdfc473203ea",
+    "planName": "VIP"
+    
+}

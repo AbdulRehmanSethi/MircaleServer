@@ -1,0 +1,10 @@
+### Upload PDF File for Summary
+POST http://localhost:8080/youai/PDF/upload
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary12345
+
+------WebKitFormBoundary12345
+Content-Disposition: form-data; name="pdf"; filename="Maddy CV.pdf"
+Content-Type: application/pdf
+
+< ./Test/Maddy-CV.pdf
+------WebKitFormBoundary12345--

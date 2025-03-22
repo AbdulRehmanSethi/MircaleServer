@@ -1,0 +1,42 @@
+
+
+### Generate Vi
+POST https://delicate-squid-legally.ngrok-free.app/youai/shorts/generate-video
+Content-Type: application/json
+
+{
+  "prompt": "Generate a video on Loniness and Depression",
+  "userId":"67a53b3e7fc5cdfc473203ea",
+  "featureName": "Youtube And Facebook Short"
+}
+
+
+### Generate SHort Fornm url
+POST http://localhost:8080/youai/shorts/generate-from-url
+Content-Type: application/json
+
+{ 
+  "url": "https://youtu.be/UuNXD8L1gwg?si=kqkqu_vJRQ9st-bW",
+  "userId":"67a53b3e7fc5cdfc473203ea",
+  "featureName": "Youtube And Facebook Short"
+
+}
+
+### Get all url to shorts
+POST http://localhost:8080/youai/shorts/getallurltoshorts
+Content-Type: application/json
+
+{ 
+  "userId":"67a53b3e7fc5cdfc473203ea"
+
+}
+
+
+### Get all url to shorts
+POST http://localhost:8080/youai/shorts/getallprompttoshorts
+Content-Type: application/json
+
+{ 
+  "userId":"67a53b3e7fc5cdfc473203ea"
+
+}

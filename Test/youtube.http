@@ -1,0 +1,28 @@
+### Summarize YouTube Video
+POST https://delicate-squid-legally.ngrok-free.app/youai/yt/summarize
+Content-Type: application/json
+
+{
+  "youtubeLink": "https://www.youtube.com/watch?v=PUYMvYcz3ZI&ab_channel=Ruhi%C3%87enet",
+  "userId":"67a53b3e7fc5cdfc473203ea",
+  "featureName": "Youtube Summary"
+}
+
+
+### Fetch YouTube Video Transcript
+POST https://delicate-squid-legally.ngrok-free.app/youai/yt/transcript
+Content-Type: application/json
+
+{
+  "youtubeLink": "https://youtu.be/PUYMvYcz3ZI?si=gTn8RWr8fcsmoaoo",
+  "userId":"67a53b3e7fc5cdfc473203ea",
+  "featureName": "Youtube Transcription"
+}
+
+### Get ALL YouTube Video Transcripts Summary
+POST https://delicate-squid-legally.ngrok-free.app/youai/yt/getalltranscribesummary
+Content-Type: application/json
+
+{
+  "userId":"67a53b3e7fc5cdfc473203ea"
+}
