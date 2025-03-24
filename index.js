@@ -27,7 +27,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use("/youai/images", imageRouter);
 app.get("/", async (req, res) => {
   try {
-    res.send("Welcome to YouAI API");
+    res.send("Welcome to MiracleAi API");
   } catch (error) {
     console.log(error.message);
   }
